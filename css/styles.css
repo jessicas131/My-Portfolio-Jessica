@@ -64,9 +64,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #000000 !important;
   text-align: left;
-  background-color: #fff;
+  background-color: #ffff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #506cf0;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: rgb(216, 162, 141);
   text-decoration: underline;
 }
 
@@ -213,7 +213,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #a7c0cd;
   text-align: left;
   caption-side: bottom;
 }
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: #506CF0;
 }
 
 h1, .h1 {
@@ -423,7 +423,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba((0, 97, 121));
 }
 
 small,
@@ -435,7 +435,7 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #fff;
 }
 
 .list-unstyled {
@@ -467,7 +467,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d;
+  color:#a7c0cd;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -498,7 +498,7 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #6c757d;
+  color: #a7c0cd;
 }
 
 code {
@@ -6096,7 +6096,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #FE7860 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6292,7 +6292,7 @@ button.bg-dark:focus {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 10% !important;
 }
 
 .rounded-pill {
@@ -9798,7 +9798,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: rgb(0, 97, 121) !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10062,7 +10062,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid rgba(255, 255, 255, 0.884);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -10088,7 +10088,7 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #A7C0CD;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -10098,7 +10098,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #506CF0;
 }
 
 .dev-icons {
